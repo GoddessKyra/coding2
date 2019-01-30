@@ -1,0 +1,39 @@
+body {
+	font-size: 100%;
+	font-family: geneva, tahoma, sans-serif;
+	background: lightblue url("../images/waterbkgd.jpg") left top;
+	margin: 0;
+	padding: 0;
+}
+div.indexSub {
+	float: left;
+	width: 33%;
+	height: 400px;
+	margin: 0 auto;
+}
+div.indexMain {
+	margin-top: 27%;
+	margin-bottom: 3%;
+	height: 400px;
+	background: white;
+}
+h1 {
+	padding: 15px;
+}
+p {
+	padding:10px;
+}
+.topnav {
+	background-color: DodgerBlue;
+	overflow: hidden;
+	padding: 10px;
+}
+.topnav a {
+	color: #FFF;
+	padding: 20px;
+	font-size: 120%;
+	text-decoration: none;
+}
+.topnav a:hover {
+	background-color: #00AAFA;
+}
