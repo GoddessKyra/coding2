@@ -1,0 +1,62 @@
+body {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 100%;
+	color: black;
+	background-color: white;
+}
+header, section, aside, nav, figure, article, main, footer {
+	display: block;	
+}
+a:link {
+	color:red;
+
+}
+a:visted {
+	color: green;
+}
+a:hover {
+	color: hotPink;
+}
+a.highlight:hover {
+	background: yellow;
+}
+div:hover {
+	background: lightblue;
+}
+p:first-child {
+	color: blue;
+}
+p:first-child i {
+	color: red;
+}
+p i:first-child {
+	color: magenta;
+}
+p::first-line {
+	font-variant: small-caps;
+	color: #FFD700;
+}
+p::first-letter {
+	color: rebeccapurple;
+	font-size: 3em;
+	font-weight: bolder;
+	font-family: cursive;
+}
+p:first-child::first-letter {
+	color: #666;
+	font-variant: inherit;
+	background: springGreen;
+}
+p.outro::first-line{
+	color: #B0C4DE;
+	background: #191980;
+	font-variant: normal;
+}
+h1::before {
+	content: url(pawprintbullet.png);
+	padding: 10px;
+}
+h1::after {
+	content: "...";
+	padding: 10px;
+}

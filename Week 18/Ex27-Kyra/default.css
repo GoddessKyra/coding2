@@ -1,0 +1,44 @@
+body {
+	font-family: geneva, tahoma, sans-serif;
+	font-size: 100%;
+	color: black;
+	background-color: white;
+	margin: 0;
+}
+header, section, aside, nav, figure, article, main, footer {
+	display: block;
+}
+main {
+    padding: 25px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0 25px 25px 0;
+    padding: 0;
+    width: 100%;
+    background: #F1F1F1;
+    overflow: auto;
+	float: left;
+	position: fixed;
+	bottom: -25px;
+}
+nav li {
+    text-align: center;
+	display: inline-block;
+}
+nav li a {
+    display: block;
+    color: #4CAF50;
+    padding: 20px;
+    text-decoration: none;
+	text-align: left;
+}
+li a:hover {
+    background: #555;
+    color: white;
+}
+.active {
+    background: #4CAF50;
+    color: white;
+}

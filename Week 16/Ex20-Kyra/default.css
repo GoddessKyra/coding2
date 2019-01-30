@@ -1,0 +1,32 @@
+body {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 100%;
+	color: black;
+	background-color: white;
+}
+header, section, aside, nav, figure, article, main, footer {
+	display: block;	
+}
+div:first-child h1 {
+	background: black;
+	color: white;
+	padding: 10px;
+	margin: 0;
+}
+div:first-child h1::before {
+	content: url(wolf.png);
+}
+div:first-child h1:nth-child(2) {
+	color: black;
+	background: white;
+	padding: 10px 0 0 0;
+}
+div:first-child h1:nth-child(2)::before {
+	content: none;
+}
+ul li:nth-child(even) {
+	background: lightblue;
+}
+p:nth-child(even) {
+	padding-left: 20px;
+}

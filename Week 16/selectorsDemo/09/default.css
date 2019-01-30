@@ -1,0 +1,26 @@
+body {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 100%;
+	color: black;
+	background-color: white;
+}
+header, section, aside, nav, figure, article, main, footer {
+	display: block;	
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+ul + p + p {
+    font-weight: bold;
+}
+a[target] {
+    background: crimson;
+    color: white;
+}
+a[target="_blank"] {
+    background: lightblue;
+}
+[title~=flower] {
+    border: 5px solid yellow;
+}

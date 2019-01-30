@@ -1,0 +1,32 @@
+body {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 100%;
+	color: black;
+	background-color: white;
+}
+header, section, aside, nav, figure, article, main, footer {
+	display: block;
+}
+h1 {
+	position: fixed;
+	top: 50px;
+	right: 50px;
+	color: red;
+}
+h2 {
+	position: relative;
+	left: 50px;
+	top: 30px;
+	color: blue;
+}
+h3 {
+	position: absolute;
+	left: 150px;
+	top: 200px;
+	color: green;
+}
+.img {
+	z-index: -1;
+	position: relative;
+	bottom: 115px;
+}

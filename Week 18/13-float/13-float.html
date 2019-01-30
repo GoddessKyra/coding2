@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+
+<head>
+<title>Float and Clear Demo</title>
+<link rel="stylesheet" type="text/css" href="default13.css" />
+</head>
+<body>
+
+<p>In this example, the image will float to the right in the paragraph, and the text in the paragraph will wrap around the image.</p>
+
+<p><img src="images/octomonkey.jpg" alt="Octomonkey" width="75" height="98" />
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae
+scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue
+ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus
+congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis.
+Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras
+ac leo purus. Mauris quis diam velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae
+scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue
+ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus
+congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis.
+Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras
+ac leo purus. Mauris quis diam velit.</p>
+
+<h2>Without clear</h2>
+<div class="div1">div1</div>
+<div class="div2">div2 - Notice that the div2 element is after div1, in the HTML code. However, since div1 is floated to the left, this
+happens: the text in div2 is floated around div1, and div2 surrounds the whole thing. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae
+scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue
+ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus
+congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. </div>
+
+<h2>Using clear</h2>
+<div class="div3">div3</div>
+<div class="div4 clearfix">div4 - Using clear moves div4 down below the floated div3. The value "left" clears elements floated to the left. You can also clear "right" and "both".</div>
+
+<h2>Without fix</h2>
+
+<p>In this example, the image is taller than the element containing it, and it is floated, so it overflows outside of its container:</p>
+
+<div class="div5"><img src="images/octomonkey.jpg" alt="Octomonkey" width="75" height="98" />
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum...</div>
+
+<p>This is a paragraph following the element that contained the float. Without the clear fix, the paragraph which follows the float will
+be wrap around the floated image until it has reached the end of the overflow of the floated image.</p>
+
+<h2>Using fix</h2>
+
+<p>Add a clearfix class with overflow: auto; to the containing element, to fix this problem:</p>
+
+<div class="overflowFix"><img src="images/octomonkey.jpg" alt="Octomonkey" width="75" height="98" />
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum...</div>
+
+<p>Another paragraph</p>
+
+<h2>Web Layout</h2>
+
+<div class="div6">
+
+<nav>
+  <span>nav</span>
+    <ul>
+      <li><a target="_blank" href="/default.asp">Home</a></li>
+      <li><a target="_blank" href="default.asp">CSS</a></li>
+      <li><a target="_blank" href="/html/default.asp">HTML</a></li>
+      <li><a target="_blank" href="/js/default.asp">JavaScript</a></li>
+    </ul>
+  </nav>
+
+  <section>
+    <span>section</span>
+    <p>Notice we have put a clearfix on the div container. It is not needed in this example, but it would be if the nav element was longer than the non-floated section content.</p>
+  </section>
+
+  <section>
+    <span>section</span>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet.</p>
+  </section>
+
+</div>
+</body>
+
+
+</html>

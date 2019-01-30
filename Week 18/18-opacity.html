@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+
+<head>
+<title>Opacity Demo</title>
+<link rel="stylesheet" type="text/css" href="default18.css" />
+</head>
+<body>
+
+<h1>Image Transparency</h1>
+<p>The opacity property specifies the transparency of an element. The lower the value, the more transparent:</p>
+
+<table>
+	<tr>
+		<td><img src="images/sign1.jpg" alt="Stop Sign" width="200" height="226"></td>
+		<td><img class="op50" src="images/sign1.jpg" alt="Stop Sign" width="200" height="226"></td>
+		<td><img class="op20" src="images/sign1.jpg" alt="Stop Sign" width="200" height="226"></td>
+	</tr>
+	<tr>
+		<td>Opacity 1 (default)</td>
+		<td>Opacity 0.5</td>
+		<td>Opacity 0.2</td>
+	</tr>
+</table>
+
+<h1>Image Transparency on Hover</h1>
+
+<p>The opacity property is often used together with the :hover selector to change the opacity on mouse-over:</p>
+
+<img class="h1" src="images/sign2.jpg" alt="Stop Sign" width="400" height="276">
+
+
+<h1>Transparent Box</h1>
+<p>When using the opacity property to add transparency to the background of an element, all of its child elements become transparent as well. This can make the text inside a fully transparent element hard to read:</p>
+
+<div><p>opacity 1 (default)</p></div>
+<div class="third"><p>opacity 0.6</p></div>
+<div class="second"><p>opacity 0.3</p></div>
+<div class="first"><p>opacity 0.1</p></div>
+
+<h1>Transparent Box with RGBA color values:</h1>
+<div><p>opacity 1 (default)</p></div>
+<div class="rgba1"><p>opacity 0.6</p></div>
+<div class="rgba2"><p>opacity 0.3</p></div>
+<div class="rgba3"><p>opacity 0.1</p></div>
+
+
+</body>
+
+
+</html>

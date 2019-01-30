@@ -1,0 +1,34 @@
+h2 {
+    padding-top: 25px;
+}
+li {
+    display: inline;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+    padding: 11px;
+    background-color: rebeccapurple;
+    color: lavender;
+}
+
+a:hover {
+    background-color: lavender;
+    color: rebeccapurple;
+    padding: 10px;
+    border: 1px solid rebeccapurple;
+}
+span {
+    display: inline-block;
+}
+
+.dhide {
+    display: none;
+    color: red;
+}
+
+.vhide {
+    visibility: hidden;
+    color: orange;
+}

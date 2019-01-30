@@ -1,0 +1,43 @@
+.static {
+    border: 3px solid #73AD21;
+    position: static;
+}
+
+.relative {
+    left: 30px;
+    border: 3px solid #73AD21;
+    position: relative;
+    top: -10px;
+    width: 96%;
+}
+
+.fixed {
+    border: 3px solid #73AD21;
+    position: fixed; /*Relative to the browser window, scrolls with window*/
+    bottom: 0;
+    right: 0;
+}
+
+.absolute {
+    border: 3px solid #73AD21;
+    position: absolute;  /*Positioned to the closest ancestor, but only if it has a position set*/
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    
+}
+
+.relative2 {
+    border: 3px solid #73AD21;
+    position: relative;
+    width: 400px;
+}
+
+img {
+    position: absolute;
+    left: 0;
+    top: 725px;
+    z-index: -1;
+    top: 550px;
+}

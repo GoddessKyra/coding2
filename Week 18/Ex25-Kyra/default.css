@@ -1,0 +1,21 @@
+body {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 100%;
+	color: black;
+	background-color: white;
+}
+header, section, aside, nav, figure, article, main, footer {
+	display: block;
+}
+h2 {
+	visibility: hidden;
+}
+h3 {
+	display: none;
+}
+li {
+	display: inline;
+}
+strong {
+	display: block;
+}

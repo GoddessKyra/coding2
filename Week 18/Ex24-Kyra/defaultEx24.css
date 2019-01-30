@@ -1,0 +1,17 @@
+.bluebox {
+	background-color: lightblue;
+	padding: 0 10px;
+	float: left;
+	width: auto;
+}
+
+.redbox {
+	background-color: red;
+	color: white;
+	padding: 0 10px;
+	float: right;
+	width: auto;
+}
+.clearfix {
+	clear: both;
+}
