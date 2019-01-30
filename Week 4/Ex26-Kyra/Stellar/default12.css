@@ -1,0 +1,11 @@
+body {
+	background: #ddd;
+	font-size: 100%;
+}
+h1 {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: darkslategrey;
+}
+.about {
+	color: red;
+}

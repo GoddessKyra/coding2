@@ -1,0 +1,21 @@
+body {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 100%;
+	color: black;
+	background-color: white;
+}
+h1 {
+	background-color: lightblue;
+	border: 2px solid aqua;
+	padding-left: 20px;
+}
+h2 {
+	background-color: lightblue;
+	border: 2px solid aqua;
+	padding: 50px;
+}
+h3 {
+	background-color: lightblue;
+	border: 2px solid aqua;
+	padding: 100px 50px;
+}

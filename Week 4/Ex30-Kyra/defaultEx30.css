@@ -1,0 +1,11 @@
+body {
+	background-color: white;
+	font-size: 100%;
+	font-family: helvetica, arial, san-serif;
+}
+h1 {
+	background-color: lightblue;
+	outline: 10px dotted red;
+	outline-offset: 25px;
+	margin: 50px;
+}

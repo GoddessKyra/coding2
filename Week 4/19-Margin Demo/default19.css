@@ -1,0 +1,39 @@
+.individual {
+	border: 3px dotted crimson;
+	background-color: aquamarine;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-right: 150px;
+	margin-left: 80px;
+}
+.indieShort {
+	border: 2px dotted aquamarine;
+	background-color: lightblue;
+	margin: 100px 150px 100px 80px;
+}
+.mixed1 {
+	border: 2px dotted aquamarine;
+	background-color: lightblue;
+	margin: 25px 50px 75px 100px;
+}
+.mixed2 {
+	border: 2px dotted aquamarine;
+	background-color: lightblue;
+	margin: 25px 50px 75px; /* Same as 25px 50px 75px 50px*/
+}
+.mixed3 {
+	border: 2px dotted aquamarine;
+	background-color: lightblue;
+	margin: 25px 50px;  /* Same as 25px 50px 25px 50px*/
+}
+.mixed4 {
+	border: 2px dotted aquamarine;
+	width: 100px;
+	background-color: lightblue;
+	margin: 0 auto;
+}
+
+
+
+
+

@@ -1,0 +1,15 @@
+.ex1 {
+	background-color: #d5f4e6;
+	height: 200px;
+	width: 50%;
+}
+.ex2 {
+	background-color: #80ced6;
+	height: 100px;
+	width: 700px;
+}
+.ex3 {
+	background-color: #fefbd8;
+	height: 100px
+	max-width: 700px;
+}

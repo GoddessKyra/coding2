@@ -1,0 +1,39 @@
+body {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 100%;
+	color: black;
+	background-color: white;
+}
+.individual {
+	border: 2px solid aquamarine;
+	background-color: lightblue;
+	padding-top: 100px;
+	padding-right: 150px;
+	padding-bottom: 100px;
+	padding-left: 80px;
+}
+.indieShort {
+	border: 2px solid aquamarine;
+	background-color: lightblue;
+	padding: 100px 150px 100px 80px;
+}
+.mixed1 {
+	border: 2px solid aquamarine;
+	background-color: lightblue;
+	padding: 25px 50px 75px 100px;
+}
+.mixed2 {
+	border: 2px solid aquamarine;
+	background-color: lightblue;
+	padding: 25px 50px 75px;
+}
+.mixed3 {
+	border: 2px solid aquamarine;
+	background-color: lightblue;
+	padding: 25px 50px;
+}
+.mixed4 {
+	border: 2px solid aquamarine;
+	background-color: lightblue;
+	padding: 25px;
+}

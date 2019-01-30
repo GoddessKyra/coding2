@@ -1,0 +1,13 @@
+body {
+	background-color: #4b0082;
+	font-size: 100%;
+	font-family: times;
+}
+div {
+	background-color: #ADD8E6;
+	margin: 50px;
+	padding: 20px;
+}
+h3 {
+	color: #FF4500;
+}

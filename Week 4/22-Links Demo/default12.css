@@ -1,0 +1,23 @@
+a:link, a:visited {
+	background-color: #68F4D0;
+	color: white;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+}
+a:hover, a:active {
+	background-color: #68D4C0;
+}
+a.two:link, a.two:visited {
+	background-color: white;
+	color: #68F4D0;
+	border: 2px #68FFF0 solid;
+	text-align: center;
+}
+a.two:hover, a.two:active {
+	background-color: #68D4C0;
+	border: 2px #68FFF0 solid;
+	color: white;
+}
+
+	

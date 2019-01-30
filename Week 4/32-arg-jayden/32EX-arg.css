@@ -1,0 +1,33 @@
+body {
+	background-color: #4b0082;	
+	font-size: 100%;		
+	font-family: "Times New Roman", Times, serif;
+}
+
+.textBox {
+	background: #add8e6;
+	padding: 20px;
+	margin: 50px;
+}
+
+.centered {
+	text-align: center;
+}
+
+h3 {
+	color: #ff4500;
+}
+
+.nameBlock {
+	font-weight: bold;
+}
+
+.redUnderline {
+	border-bottom: 2px solid #ff4500;
+	color: black;
+}
+
+.blackUnderline {
+	border-bottom: 1px solid black;
+	font-weight: bold;
+}

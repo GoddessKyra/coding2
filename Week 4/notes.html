@@ -1,0 +1,75 @@
+DAY ONE - Margin and Height/Width
+Shorthand for margin is top right bottom left, it goes clockwise
+margin-top
+margin-right
+margin-bottom
+margin-left
+margin
+
+If there are 3 values, it will look at its opposite side for the pixels
+right - left
+top - bottom
+
+if there are 2 values, it is the same as the one above
+
+If there is only one, all four will be that size
+There is no float center, margin can "go around" that
+
+0 means no margin, auto means it will take the left over width from the browser and divide it by 2 and place it on the left and right sides
+
+Width is needed because block takes up the entire width, auto will have nothing to be divided by 2
+Browser width is 600px
+
+Width is just going to set it at 700 no matter the browser window size, max-width sets it up to 700px
+
+DAY TWO - Padding
+Padding goes between the border and the content (inside of border)
+Margin goes between border and the top/bottom or sides (outside of border)
+
+In the skeleton CSS, the element width is 570px
+Margin can be negative, padding cannot be negative
+Very similar to margin
+Goes clockwise for shorthand
+
+DAY THREE -Anchor Pseudo Classes
+Padding will give more area to click, margin will not
+
+DAY FOUR - Border and Outline
+border-style is shorthand
+ - -
+l  border-top-style:
+l  border-right-style:
+l  border-bottom-style:
+l  border-left-style:
+ - -
+Top, right, bottom, left is the shorthand order
+
+border-width: thin (1px), medium (4px), thick (6-7px)
+If you don't define a style but have a width, it wouldn't show
+
+If you don't specify color, the default would be the text color
+
+border shorthand width - style - color
+
+The largest size on the radius depends on the size of the content
+
+Outline does not effect size or dimension of the element
+Do all sides or none ( no one side)
+One style
+Outline-color:
+Outline-width:
+Outline-offset:
+Outline shorthand: width, style, color
+Outline-offset 
+
+DAY FIVE
+For ones with specific ids and classes, the order matters
+For example;
+	#menu li {
+		means that the list is inside the menu
+			<span id="menu>
+				<li>Content</li>
+			</span>
+	li #menu {
+		means that the id is in the li
+			<li id="menu"> Content </li>

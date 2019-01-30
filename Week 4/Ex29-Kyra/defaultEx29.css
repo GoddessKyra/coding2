@@ -1,0 +1,25 @@
+body {
+	background-color: white;
+	color: black;
+	font-size: 100%;
+}
+div {
+	padding: 20px;
+	background-color: #73AD21;
+	width: 200px;
+	margin-bottom: 20px;
+	border-radius: 25px;
+}
+.style2 {
+	border-top-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.style3 {
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.style4 {
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
