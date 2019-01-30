@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+	<title>Color Exercise</title>
+  <link rel="stylesheet" type="text/css" href="default.css">
+</head>
+
+<body>
+	
+	<h1>Set 1</h1>
+
+	<p style="color:red;">This is a paragraph stylized with a color name</p>
+
+	<p style="color:#FF0000;">This is a paragraph stylized with a hex value</p>
+
+	<p style="color:rgb(255,0,0);">This is a paragraph stylized with a RGB value</p>
+
+	<h1>Set 2</h1>
+
+	<p style="color:blue;">This is a paragraph stylized with a color name</p>
+
+	<p style="color:#0000FF;">This is a paragraph stylized with a hex value</p>
+
+	<p style="color:rgb(0,0,255);">This is a paragraph stylized with a RGB value</p>
+
+	<h1>Set 3</h1>
+
+	<p style="color:green;">This is a paragraph stylized with a color name</p>
+
+	<p style="color:#008000;">This is a paragraph stylized with a hex value</p>
+
+	<p style="color:rgb(0,128,0);">This is a paragraph stylized with a RGB value</p>
+ <p>Insert image here: <img src="09-programming.gif" width="90px" height="90px" alt="programmer" /></p>
+
+<p><img src="09-rex.jpg" width="200px" height="200px" alt="Rex and Weebles" style="float:left;" border="none" />Everyone who is passionate about rescuing has a story about how they got where they are, or
+why they do what they do. It is often reflected in the name of the organization - either in dedication to a
+specific animal that has moved them, or a breed that they are passionate about supporting.</p>
+
+<br style="clear: both;" />
+
+<p>Insert ladybug picture after this paragraph.</p>
+<img src="09-ladybug.jpg" width="300px" height="auto" alt="ladybug" />
+
+	<p>Visit our <a href="https://www.lifeisbetterrescue.org/">website</a>.</p>
+
+	<p>See a <a href="10-dougie.jpg">photo</a> of the three Coopers.</p>
+
+	<p>It is happening again!</p>
+	<!-- Insert Giant Photo Here -->
+	<a href="http://www.sho.com/twin-peaks" target="_blank"><img src="10-giant.gif" width="500px" height="368px" alt="A man saying no and waving his hands in front of him" /></a>
+
+<p title="About W3Schools">W3Schools is a web developer's site.</p>
+
+<p>This is a <a href="https://www.lifeisbetterrescue.org/">link</a>.</p>
+<img src="06-messyFace.jpg" width="200" height="300" alt="kitten learning to eat"/>
+<p style="color:red;">This paragraph is red.</p>
+
+<p style="font-family:courier;">This paragraph is Courier.</p>
+
+<p style="text-align:center">This paragraph is centered.</p>
+
+<p style="font-size:45px">This paragraph is 45px.</p>
+
+<p>The background color of this page is yellow.</p>
+
+<p>All the content on this page is right aligned.</p>
+</body>
+
+</html>
