@@ -1,0 +1,44 @@
+body {
+	font-family: geneva, tahoma, sans-serif;
+	font-size: 100%;
+	color: black;
+	background-color: white;
+    /*If I want to do all the way to the top and bottom; margin: 0; */
+}
+header, section, aside, nav, figure, article, main, footer {
+	display: block;
+}
+main {
+    margin-left: 220px;
+    padding: 1px 16px;
+    height: 1000px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background: white;
+    border: 1px solid #AAC0CB;
+    height: 98%;
+    position: fixed;
+    overflow: auto;
+}
+nav li {
+    border-bottom: 1px solid #AAC0CB;
+    text-align: center;
+}
+nav li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background: #FFC0CB;
+    color: white;
+}
+.active {
+    background: #FFC0A0;
+    color: white;
+}

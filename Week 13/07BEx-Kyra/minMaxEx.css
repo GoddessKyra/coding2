@@ -1,0 +1,28 @@
+/* Do NOT change this code */
+
+body {
+    font-family: helvetica, arial, sans-serif;
+    font-size: 100%;
+    color: black;    
+}
+
+#mainContent, #sidebar {
+    padding: 10px;
+    margin: 20px;
+    float: left;
+}
+#mainContent {
+    background-color: DarkSeaGreen;
+    max-width: 60%;
+    min-width: 30%;
+}
+#sidebar {
+    background-color: rebeccapurple;
+    width: 275px;
+    height: 470px;
+    overflow: auto;
+}
+
+.center {
+    text-align: center;
+}

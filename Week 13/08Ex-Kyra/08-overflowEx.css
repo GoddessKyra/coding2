@@ -1,0 +1,18 @@
+/* Do NOT change this coding */
+div {
+    background-color: #eee;
+    width: 200px;
+    height: 70px;
+    border: 1px dotted black;
+    white-space: nowrap;
+}
+.div1 {
+    overflow: scroll;
+}
+.div2 {
+    overflow: hidden;
+}
+.div3 {
+    overflow-y: hidden;
+    overflow-x: scroll;
+}

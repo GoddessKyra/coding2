@@ -1,0 +1,94 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+p {
+    padding-right: 200px;
+}
+
+.bkgd {
+    background-image: url(../images/soccerBall.png), url(../images/grass.jpg);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    background-size: 150px 150px, 1000px 662px;
+    /* background: color, image, repeat, attachment, position */
+    padding: 25px;
+    margin: 25px;
+}
+
+/* Demo for contain vs. cover */
+.divOrig {
+    border: 1px solid white;
+    height:150px;
+    width:400px;
+    background:url(../images/flowers.png);
+    background-repeat: no-repeat;    
+}
+
+.divContain {
+    border: 1px solid white;
+    height:150px;
+    width:400px;
+    background: url(../images/flowers.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.divCover {
+    border: 1px solid white;
+    height:150px;
+    width:400px;
+    background:url(../images/flowers.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Demo for background-origin */
+.example1 {
+    border: 10px solid white;
+    padding: 35px;
+    background:url(../images/flowers.png);
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+}
+
+.example2 {
+    border: 10px solid white;
+    padding: 35px;
+    background:url(../images/flowers.png);
+    background-repeat: no-repeat;
+    background-origin: border-box;
+}
+
+.example3 {
+    border: 10px solid white;
+    padding: 35px;
+    background:url(../images/flowers.png);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+
+/* Demo for background-clip */
+.div1 {
+    border: 10px dotted white;
+    padding:35px;
+    background: lightblue;
+}
+
+.div2 {
+    border: 10px dotted white;
+    padding:35px;
+    background: lightblue;
+    background-clip: padding-box;
+}
+
+.div3 {
+    border: 10px dotted white;
+    padding:35px;
+    background: lightblue;
+    background-clip: content-box;
+}
+
+
+

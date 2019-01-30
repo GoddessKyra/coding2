@@ -1,0 +1,26 @@
+div.ex1 {
+    background-color: powderblue;
+    height: 200px;
+    width: 50%;
+    overflow: auto;
+}
+
+div.ex2 {
+    background-color: thistle;
+    height: 100px;
+    width: 500px;
+}
+
+
+div.ex3 {
+    height: 100px;
+    min-width: 500px;
+    max-width: 700px;
+    background-color: springGreen;
+}
+
+div.ex4 {
+    max-height: 50px;
+    background-color: aqua;
+    overflow: auto;
+}

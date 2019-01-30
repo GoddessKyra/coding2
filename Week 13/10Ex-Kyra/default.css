@@ -1,0 +1,16 @@
+body {
+    font-family: geneva, tahoma, serif;
+    font-size: 100%;
+    background: white;
+    color: black;
+}
+a:link {
+    color: maroon;
+}
+a:visited {
+    color: green;
+}
+a:hover {
+    background: blue;
+    color: white;
+}

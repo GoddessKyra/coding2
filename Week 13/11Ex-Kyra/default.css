@@ -1,0 +1,19 @@
+body {
+    font-family: geneva, tahoma, serif;
+    font-size: 100%;
+    background: white;
+    color: black;
+}
+.square {
+    list-style-type: square;
+}
+.upperRoman {
+    list-style-type: upper-roman;
+}
+.lowerRoman {
+    list-style-type: lower-roman;
+}
+.checkmark {
+    list-style-type: lower-roman;
+    list-style-image: url('checkmark.png')
+}

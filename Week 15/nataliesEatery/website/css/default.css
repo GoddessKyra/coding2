@@ -1,0 +1,308 @@
+body {
+  font-size: 100%;
+  font-family: geneva, tahoma, sans-serif;
+  background: #4A0001;
+  color: white;
+}
+header, section, aside, nav, figure, article, main, footer {
+	display: block;
+}
+main {
+  padding: 1px 16px;
+  top: 90px;
+  margin: 0 auto;
+  width: 900px;
+  line-height: 2em;
+}
+.center {
+  text-align: center;
+}
+ul li {
+  list-style-type: none;
+}
+h1, h2, h3, h4 {
+  margin: 5px 0 -10px auto;
+  line-height: 1.8em;
+}
+nav {
+  float: right;
+  width: 100%;
+  position: fixed;
+  left: 185px;
+  top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  background: #7E0001;
+  z-index: 2;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+	width: 100%;
+  overflow: auto;
+}
+nav li {
+  text-align: center;
+	display: inline-block;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  background: #4A0001;
+	border: 2px solid #4A0001;
+}
+li a:hover {
+  background: #7E0001;
+  color: white;
+	border: 2px solid #4A0001;
+}
+.active {
+  background: #610000;
+  border: 2px solid #4A0001;
+}
+div.body {
+  background: #3D0001;
+  color: #D9D9D9;
+  width: 950px;
+  margin: 50px auto;
+  padding: 20px;
+}
+p {
+  line-height: 27px;
+}
+table.hours, table.hours td, table.hours th {
+  padding: 0 15px;
+  text-align: center;
+  border-collapse: collapse;
+  font-weight: normal;
+  background: #2E0001;
+}
+table.hours td, table.hours th {
+  border-right: 1px solid #888;
+  border-left: 1px solid #888;
+}
+table.hours th {
+  font-weight: bold;
+  font-size: 118%;
+  padding: 15px;
+}
+table.hours caption {
+  font-size: 130%;
+  padding: 15px;
+  padding-left: 0;
+  border: 1px solid #888;
+  background: #2E0001;
+}
+table.hours {
+  margin-bottom: 20px;
+  border: 1px solid #888;
+}
+table.hours td.bottom {
+  padding-bottom: 20px;
+}
+table.tabContentTable {
+  padding: 10px;
+  margin: 30px auto;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  border: 1px solid white;
+  background: #2E0001;
+  border-radius: 10px 10px 0px 0px;
+}
+table.tabContentTable caption {
+  border: 1px solid white;
+  padding: 10px;
+  background: #2E0001;
+}
+table.tabContentTable td {
+  padding: 20px;
+  width: 12%;
+  height: 80px;
+}
+table.tabContentTable thead {
+  border-bottom: 1px solid #888;
+  padding: 10px;
+}
+table.tabContentTable tbody {
+  background: #3D0001;
+}
+table.tabContentTable th {
+  padding: 10px;
+}
+table.tabContentTable td:first-child {
+  text-align: left;
+  width: 64%;
+}
+table.tabContentTable dt {
+  font-size: 120%;
+}
+table.tabContentTable tr.width td {
+  width: 12%;
+  margin: 0 auto;
+}
+table.tabContentTable tbody tr:hover {
+  background: #7E0001;
+  color: white;
+}
+tbody.twoColumns td {
+  width: 50%;
+  text-align: left;
+  vertical-align: top;
+}
+tbody.twoColumnsKids td:last-child {
+  width: 50%;
+  text-align: center;
+  vertical-align: top;
+}
+tbody.twoColumns li {
+	padding: 5px;
+}
+table.sandwiches {
+  padding: 10px;
+  margin: 30px auto;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  border: 1px solid white;
+  background: #2E0001;
+  border-radius: 10px 10px 0px 0px;
+}
+table.sandwiches caption {
+  border: 1px solid white;
+  padding: 10px;
+  background: #2E0001;
+}
+table.sandwiches td {
+  padding: 20px;
+  width: 12%;
+  height: 30px;
+}
+table.sandwiches thead {
+  border-bottom: 1px solid #888;
+  padding: 10px;
+}
+table.sandwiches tbody {
+  background: #3D0001;
+}
+table.sandwiches th {
+  padding: 10px;
+  background: #2E0001;
+}
+table.sandwiches td:first-child {
+  text-align: left;
+  width: 64%;
+  font-weight: bold;
+}
+table.sandwiches dt {
+  font-size: 120%;
+}
+table.sandwiches tr.width td {
+  width: 12%;
+  margin: 0 auto;
+}
+table.sandwiches tr:nth-child(odd) {
+  background: #7E0001;
+  color: white;
+}
+table.sides {
+  padding: 10px;
+  margin: 30px auto;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  border: 1px solid white;
+}
+table.sides thead {
+	background: #2E0001;
+	border-bottom: 1px solid #888;
+}
+table.sides th {
+	padding: 10px;
+}
+table.sides td {
+  width: 33%;
+  padding: 10px;
+}
+.tabContent p {
+  margin: 0 auto;
+  width: 710px;
+  animation: fadeEffect 1.5s;
+}
+h4 a:link {
+  color: #BBB;
+  padding: 10px 10px 10px 0;
+}
+h4.noAlign {
+  margin-bottom: 10px;
+}
+.tab {
+  overflow: hidden;
+  border: 1px solid #EEE;
+  background: #610000;
+  margin: 0 auto;
+  width: 900px;
+  color: white;
+  border-radius: 10px 10px 0px 0px;
+}
+.tab button {
+  background: inherit;
+  color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.1s;
+  font-size: 80%;
+}
+.tab button:hover {
+  background: #7E0001;
+  color: white;
+}
+.tabcontent {
+  display: none;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-top: none;
+  margin: 0 auto;
+  width: 870px;
+  animation: fadeEffect 1.2s;
+  border-radius: 0px 0px 10px 10px;
+}
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+.close {
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  float: right;
+}
+sup {
+  text-decoration: underline;
+}
+.left {
+  float: left;
+}
+.middle {
+  margin: 0 auto;
+  width: 25%;
+}
+.right {
+  float: right;
+}
+tbody.comboPlatters td {
+	line-height: 1.5em;
+}
+tbody.comboPlatters tr:first-child {
+	width: 40%;
+}
+tbody.comboPlatters tr:last-child {
+	width: 20%;
+}

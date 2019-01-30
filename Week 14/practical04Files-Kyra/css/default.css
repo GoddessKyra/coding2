@@ -1,0 +1,131 @@
+body {
+    font-family: helvetica, arial, sans-serif;
+	font-size: 100%;
+	color: black;
+	background-color: white;
+}
+header, section, aside, nav, figure, article, main, footer {
+	display: block;
+}
+h1 {
+    padding-left: 25px;
+    margin-top: 5px;
+}
+
+/* Table 01 Coding: Bones
+Colors used: green, white */
+.bones {
+    margin: 25px;
+    border-collapse: collapse;
+    color: green;
+    width: 350px;
+}
+.bones thead {
+    text-align: left;
+	background: green;
+	color: white;
+}
+.bones th {
+    padding: 10px;
+}
+.bones tbody tr {
+    border-bottom: 2px solid green;
+}
+.bones td {
+    margin: 10px;
+    line-height: 2em;
+}
+.bones td:first-child {
+    vertical-align: top;
+    padding: 15px 0px;
+}
+.bones li {
+    list-style-image: url(../images/skull.png);
+    list-style-position: outside;
+    list-style-type: square;
+    line-height: 1.5em;
+    vertical-align: top;
+}
+
+
+/* Table 02 Coding: Scheduling
+Color used: navy */
+.times {
+    margin: 0 auto;
+    width: 500px;
+    border-collapse: collapse;
+    text-align: right;
+}
+.times tr {
+    border-bottom: 2px solid black;
+}
+.times td { 
+    padding: 10px;
+}
+.times th {
+    text-align: center;
+    padding-bottom: 10px;
+}
+.checked {
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+/* Table 03 Coding: Cubism
+Colors used: red, black, green, orange, purple, dimgrey, yellow, pink, white */
+.cubism {
+    color: white;
+    text-align: center;
+    line-height: 5em;
+    width: 80%;
+    border: 2px solid purple;
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 500px;
+}
+.cubism th, .cubism td {
+    border: 2px solid purple;
+}
+
+.insideTable {
+    color: white;
+    text-align: center;
+    line-height: 2em;
+    width: 75%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+.insideTable td {
+    border: 2px dashed white;
+    margin: 10px;
+}
+.red {
+    background: red;
+}
+.black {
+    background: black;
+}
+.green {
+    background: green;
+}
+.orange {
+    background: orange;
+}
+.pink {
+    background: pink;
+    color: black;
+}
+.purple {
+    background: purple;
+}
+.grey {
+    background: grey;
+}
+.yellow {
+    background: yellow;
+    color: black;
+}
+.white {
+    color: black;
+}

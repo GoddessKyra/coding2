@@ -1,0 +1,102 @@
+body {
+    font-family: helvetica, geneva, sans-serif;
+    font-size: 100%;
+    background: white;
+    color: black;
+}
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 15px 10px;
+}
+
+td ul {
+    list-style-type: none;
+    margin: 0 25px 25px 0;
+    padding: 0;
+    width: auto;
+    background: #b10029;
+    overflow: auto;
+	float: left;
+}
+td li {
+    text-align: center;
+	display: inline-block;
+	margin: 0 auto;
+	width: 500px;
+}
+td li a {
+    display: block;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+	text-align: left;
+}
+li a:hover {
+    background: #930022;
+    color: white;
+}
+.backToTop {
+	text-align: center;
+	background: #b10029;
+	color: white;
+	text-decoration: none;
+	padding: 20px;
+}
+.backToTop a:link, .backToTop a:visited {
+	background: #b10029;
+	color: white;
+	text-decoration: none;
+}
+	
+.backToTop a:hover {
+    background: #5d0015;
+    color: white;
+	padding: 20px;
+}
+
+table {
+    width: 500px;
+    background: #D10034;
+    color: white;
+	max-height: 500px;
+	overflow: scroll;
+}
+th {
+    font-size: 200%;
+    background: black;
+	color: white;
+}
+.movieName{
+    font-size: 150%;
+    font-variant: small-caps;
+    margin: 15px;
+    text-align: center;
+    padding: 0px;
+}
+dt {
+    font-size: 125%;
+    font-variant: small-caps;
+    font-style: italic;
+}
+.noBorder {
+    border-right: 1px solid #D10034;
+}
+.largeFont {
+    font-size: 110%;
+}
+.listing {
+    font-size: 85%;
+    background: white;
+    color: black;
+    letter-spacing: 2px;
+}
+.listing td:nth-child(2) {
+    text-align: center;
+}
+.borderFix {
+    border-style: solid hidden;
+}
+.right {
+	text-align: right;
+}

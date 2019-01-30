@@ -1,0 +1,25 @@
+body {
+    font-family: geneva, tahoma, sans-serif;
+    font-size: 100%;
+    background: white;
+    color: black;
+}
+header, section, aside, nav, figure, article, main, footer {
+    display: block;
+}
+footer {
+    color: white;
+    text-align: center;
+    background-color: grey;
+    font-size: .8em;
+    padding: 5px;
+}
+.cities {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 50px;
+}
+.special {
+    color: red;
+}

@@ -1,0 +1,45 @@
+body {
+    font-family: helvetica, geneva, sans-serif;
+    font-size: 100%;
+    background: white;
+    color: black;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+.studentInfo {
+    width: 500px;
+}
+.header, caption {
+   background-color: #80B327;
+   color: white;
+   font-weight: bold;
+}
+.studentInfo tr:nth-child(even) {
+    background: #E4FFB7;
+}
+.studentInfo tr:nth-child(odd) {
+    background: #EFFFD2;
+}
+td:first-child, th.header {
+	text-align: left;
+}
+.invoice {
+    text-align: left;
+    width: 400px;
+    margin-top: 20px;
+}
+
+.invoice th, .shaded {
+    background: #ddd;
+    text-align: left;
+    font-weight: bold;
+}

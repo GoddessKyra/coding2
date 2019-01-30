@@ -1,0 +1,19 @@
+body {
+    font-family: geneva, tahoma, serif;
+    font-size: 100%;
+    background: MediumSeaGreen;
+    color: black;
+}
+h1, p {
+    font-family: impact, charcoal, sans-serif;
+}
+p {
+    color: maroon;
+    border: 5px solid red;
+    padding: 10px;
+}
+#special {
+    color: purple;
+    font-family: courier, 'Courier New', monospace;
+    font-size: 150%;
+}
