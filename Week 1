@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML Practice 3</title>
+	</head>
+
+	<body>
+		<p>WWF's mission is to stop the <strong>degradation</strong> of our planet's natural environment.</p>
+
+		<p>Tokyo is the capital of Japan, the center of the Greater Tokyo Area, and the most populous <em>metropolitan</em> area in the world.</p>
+
+		<p>Your choice of <mark>typeface</mark> is as important as what you do with it.</p>
+
+		<p>H<sub>2</sub>O is the scientific term for water.</p>
+
+		<p>My favorite color is <del>blue</del> red.</p>
+    
+		<h3>Part 1: Fix these tags to be well-formed HTML.</h3>
+
+		<h1>This is a Heading</h1>
+
+			<p>This is a paragraph.</p>
+			<p>This is a paragraph.</p>
+			<p>This is a paragraph.</p>
+
+		<h3>Part 2: Fix the display of the poem below.</h3>
+
+			<p>
+			My Bonnie lies over the ocean. <br />
+			My Bonnie lies over the sea.<br />
+			My Bonnie lies over the ocean.<br />
+			Oh, bring back my Bonnie to me.
+			</p>
+
+		<h3>Part 3: Display the poem using the preformatted text element.</h3>
+
+			<pre>
+   My Bonnie lies over the ocean.
+
+   My Bonnie lies over the sea.
+
+   My Bonnie lies over the ocean.
+
+   Oh, bring back my Bonnie to me.
+			</pre>
+
+		<h3>Part 4: Define the text "var person;" as programming code.</h3>
+
+			<p>Code example: <var> var person;</var></p>
+
+		<h3>Part 5: Define the text inside the code element as preformatted text.</h3>
+
+			<p>Code example:</p>
+		<code>
+			<pre>
+   		var person = {
+     		firstName:"John",
+    		lastName:"Doe"
+		}
+			</pre>
+		</code>
+
+		<h3>Part 6: Define the character "x" in the equation as a variable.</h3>
+
+			<p>A simple math equation: <var>x</var> = 3 + 2;</p>
+
+		<h3>Part 7: Use an HTML element to add quotation marks around the quote below.</h3>
+
+			<p>Adrian Frutiger said: <q>The empty spaces are the most important aspect of a typeface.</q></p>
+
+		<h3>Part 8: The text below should be a quoted section.
+Add the proper HTML element to it, and specify that it is quoted from the following URL:
+http://www.goodreads.com</h3>
+
+			<p><blockquote cite="http://www.goodreads.com">In a badly designed book, the letters mill and stand like starving horses in a field. In a book designed by rote, they sit like stale bread and mutton on the page. In a well-made book, where designer, compositor and printer have all done their jobs, no matter how many thousands of lines and pages, the letters are alive. They dance in their seats. Sometimes they rise and dance in the margins and aisles.</blockquote></p>
+
+		<h3>Part 9: Make the text below go right-to-left.</h3>
+
+			<p><bdo dir="rtl">What a beautiful day!</bdo></p>
+
+		<h3>Part 10: The letters "WHO" in the text below is an abbreviation of "World Health Organization".
+Use an HTML element to provide the specified abbreviation of "WHO".</h3>
+
+
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+<p><!--This is a paragraph.--></p>
+<p><!--Do not display this text in the browser--></p>
+<p><!--This is another paragraph--></p>
+	<h1>Head 1</h1>
+	<h2>Head 2</h2>
+	<h3>Head 3</h3>
+	<h4>Head 4</h4>
+	<h5>Head 5</h5>
+	<h6>Head 6</h6>
+
+	<h1>London</h1>
+		<p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.<p>
+
+		<h1>Universal Studios Presents</h1>
+		<h2>Jurassic Park</h2>
+		<h3>About</h3>
+			<p>On the Island of Isla Nublar, a new park has been built: Jurassic Park is a theme park of cloned dinosaurs!!</p>
+	</body>
+</html>
