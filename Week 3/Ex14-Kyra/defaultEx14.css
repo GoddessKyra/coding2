@@ -1,0 +1,17 @@
+body {
+	background-color: maroon;
+	color: white;
+	padding: 10px;
+}
+
+h1 {
+	background-color: lightblue;
+	color: darkblue;
+	padding: 10px;
+}
+
+#special {
+	color: lightblue;
+	font-family: helvetica, sans-serif;
+	font-size: 1.5em;
+}

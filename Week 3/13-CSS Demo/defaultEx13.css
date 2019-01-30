@@ -1,0 +1,14 @@
+body {
+	background-color: #ddd;
+	}
+h2 {color:green}
+p {color:red}
+h3 {
+	color:red;
+	font-family:verdana;
+	font-size:300%
+	}
+h4 {
+	color:yellow;
+	font-size:150%
+	}

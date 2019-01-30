@@ -1,0 +1,33 @@
+body {
+	background-color: white;
+	font-size: 100%;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+p {
+	font-family: "palatino linotype", "book antigua", Palatino, serif;
+	font-size: 16px;
+}
+.italic {
+	font-style: italic;
+}
+p.italic {
+	color: blue;
+	font-weight: bold;
+}
+h1 {
+	font-size: 2.5em; /* 40px */
+}
+h2 {
+	font-size: 1.875em; /* 30px */
+}
+.thick {
+	font-weight: bold;
+}
+.smallCaps {
+	font-variant: small-caps;
+}
+.ex1 {
+	font: italic small-caps bold 24px/36px Georgia, serif;
+}
+
+

@@ -1,0 +1,51 @@
+body {
+	color: black;
+	background-color: white; /* W3C Compliant CSS */
+}
+h2 {
+	color: purple;
+	text-align: center;
+	text-decoration: overline underline line-through;
+	text-transform: uppercase;
+}
+.p1 {
+	text-indent: 2em;
+	letter-spacing: 5px;
+}
+.p2 {
+	text-indent: 2em;
+	letter-spacing: -3px;
+}
+.p3 {
+	line-height: 0.8;
+}
+.p4 {
+	line-height: 2em;
+}
+.p5 {
+	word-spacing: 10px;
+}
+.p6 {
+	word-spacing: -5px;
+}
+h1 {
+	text-shadow: 20px 30px 5px#FF0000; /* Blur, x Off-Set Y Off-Set, Color */
+}
+/* vertical line goes by Y axis, text-align goes by x axis */
+img.top {
+	vertical-align: text-top;
+}
+img.bottom {
+	vertical-align: text-bottom;
+}
+img.middle {
+	vertical-align: middle;
+}
+/*
+% - raises or lower percent of the line-height
+sub - subscript
+super - superscript
+top or bottom - aligns with tallest/lowest element on the line
+text-top or text-bottom - aligns with the text
+middle - aligns with middle
+*/

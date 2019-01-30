@@ -1,0 +1,26 @@
+ body {
+	color: black;
+	background-color: white;
+}
+h1 {
+	color: #DC143C;
+	text-align: center;
+}
+h2 {
+	text-transform: uppercase;
+}
+h3 {
+	text-transform: lowercase;
+}
+p {
+	text-indent: 3em;
+}
+.strike {
+	text-decoration: line-through;
+}
+.Iheight {
+	line-height: 200%;
+}
+.Ispace {
+	letter-spacing: 15px;
+}

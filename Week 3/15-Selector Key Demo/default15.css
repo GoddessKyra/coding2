@@ -1,0 +1,19 @@
+body {
+	background-color: #bbb;
+}
+h2 {
+	text-align: center;
+}
+#blue {
+	color: blue;
+	text-align: left;
+}
+.greybar {
+	background-color: #9c9c9c;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: monospace;
+	color: aqua;
+}
+p.greybar {
+}

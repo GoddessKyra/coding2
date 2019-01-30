@@ -1,0 +1,20 @@
+#navbar {
+	background-color: purple;
+	color: white;
+	padding: 0 15px; }
+.cities {
+	background-color: black;
+	color: #bbb;
+	margin:20px 0;
+	padding: 20px
+}
+div.cities{
+	background-color: aquamarine;
+}
+.note {
+	font-size: 120%;
+	color: red;
+}
+#special {
+	font-family: helvetica, sans-serif;
+}

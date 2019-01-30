@@ -1,0 +1,19 @@
+body {
+	background-color: white
+	font-size: 100%;
+	font-family: "Courier New", Courier, monospace;
+}
+h1 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 2.5em;
+}
+h2 {
+	font-size: 1.875em;
+}
+p {
+	font-style: italics;
+	font-size: 0.875em;
+}
+.shorty {
+	font: bold 1.25em Verdana, Geneva, sans-serif;
+}

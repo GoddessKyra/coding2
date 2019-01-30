@@ -1,0 +1,43 @@
+In body, you can also do an image
+
+To path, you start by the current folder to the folder it is in
+
+The image repeats like a grid
+x ->
+y   - - -	 - - -
+l   l      l	l      l
+v   - - -	 - - -
+     - - -	 - - -
+    l      l	l      l
+     - - -	 - - -
+
+Reason for having different images: for one to be header
+You have to have background color
+To have one image (no repeat) use background-repeat: no-repeat
+3 ways to tell background position:
+
+Keywords	
+x			y
+left	     	      top
+center 	    center
+right		    bottom
+
+Percentages
+x			y
+0-100%		0-100%
+Its like a grid, 0 on top/left to 100 on the bottom/right
+So 100, 100 is on the bottom right and 0, 0 would be on the top left
+
+Coordinates
+x			y
+px		       px
+If you use coordinates, and someone shrinks their browser page, it would not show up, while on percentages it would
+
+For background: it must be in order of the code (color, image, repeat, attachment then position)
+
+COMMENTS IN CSS: /* content */
+
+FOR EXAMPLE;
+background-position: right top;
+would make it in the image in the right top
+
