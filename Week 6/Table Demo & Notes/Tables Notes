@@ -1,0 +1,20 @@
+TABLES:
+
+Caption defines the title of the table. Must come immediately after table tag. By default it is centered. IT IS OPTIONAL. (used to keep all table heads styled the same, can be used as a selector) <caption>
+
+<thead> stands for table head, must come BEFORE <tbody> <tfoot> and <tr>, and AFTER <caption> or <colgroup>
+
+Columns up and down, rows across.
+
+When we code, we do it by row not column. 
+
+<td> is a table cell.
+
+<tbody> must come after the <thead>, otherwise you will have a body without a head.
+<thead> centers and bolds it by default
+<tbody> by default has a left-align
+The three required tags are <table>, <tr> and <td>
+
+When the colspan/rowspan it shoves the other cells over to make room
+When it shoves t over enugh, it creates a new column, even if you don't tell it to
+tr is the second child of tbody

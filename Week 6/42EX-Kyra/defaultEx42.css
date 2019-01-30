@@ -1,0 +1,17 @@
+body {
+	font-family: times, "times new roman", serif;
+	font-size: 100%;
+	background: white;
+}
+table {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+table.width {
+	width: 325px;
+}
+td {
+	border: 1px solid black;
+	padding: 5px;
+
+}

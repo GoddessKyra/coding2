@@ -1,0 +1,20 @@
+body {
+	background: white;
+	font-size: 100%;
+	font-family: genevia, tahoma, sans-serif;
+}
+.lowerAlpha {
+	list-style: lower-alpha;
+}
+.lowerGreek {
+	list-style: lower-greek;
+}
+.upperRoman {
+	list-style: upper-roman;
+}
+.upperAlpha {
+	list-style: upper-alpha;
+}
+.lowerRoman {
+	list-style: lower-roman;
+}

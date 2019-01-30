@@ -1,0 +1,42 @@
+thead {
+	color: pink;
+}
+tbody {
+	color: aquamarine;
+}
+caption {
+	font-family: geneva, tahoma, sans-serif;
+	color: rebeccapurple;
+}
+table {
+	width: 30%;
+}
+.yellow {
+	background: yellow;
+}
+.stub {
+	font-weight: bold;
+	text-align: left;
+}
+td {
+	text-align: center;
+}
+table, td, th {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+th, td {
+	padding: 10px;
+}
+ol {
+	text-align: left;
+}
+tr:nth-child(3n+1) {
+	background: #ddd;
+}
+tr:hover {
+	background: black;
+}
+table#special {
+	background: rebeccapurple;
+}

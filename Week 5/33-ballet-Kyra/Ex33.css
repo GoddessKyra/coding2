@@ -1,0 +1,37 @@
+body {
+	background-color: #b80c58;
+	font-family: helvetica, times, sans-serif;
+	font-size: 100%;
+}
+h1 {
+	color: #b80c58;
+	font-size: 500%;
+	width: 50%;
+}
+h2 {
+	color: #DB7093;
+}
+div {
+	text-align: center;
+	padding: 50px;
+}
+div.textBox {
+	text-align: left;
+	margin: 0 auto;
+	width: 950px;
+	background: black;
+	color: #D3CFC9;
+}
+.buffaloNewsQuote {
+	font-size: 200%;
+	color: white;
+	text-align: center;
+}
+.neglia {
+	float: right;
+	width: 372px;
+}
+.waterTower {
+	float: right;
+	padding: 20px;
+}

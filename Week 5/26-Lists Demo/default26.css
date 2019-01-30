@@ -1,0 +1,42 @@
+body {
+	background: white;
+	font-size: 100%
+	font-family: helvetica, times, sans-serif;
+}
+dt {
+	color: blue;
+	font-weight: bold;
+}
+dd {
+	font-style: italic;
+	color: green;
+}
+ul.firstLevel {
+	color: rebeccapurple;
+	font-family: geneva, tahoma, sans-serif;
+}
+ul.firstLevel li ul {
+	color: crimson;
+}
+ul.inside {
+	background: springgreen;
+	list-style-position: inside;
+}
+ul.inside li, ul.outside li {
+	background: lightblue;
+}
+ul.outside {
+	background: springgreen;
+}
+.squareBullet {
+	list-style-type: square;
+}
+.upperRomanList {
+	list-style-type: upper-roman;
+}
+.pawBullet {
+	list-style-image: url('images/pawprintBullet.png');
+}
+.pawBulletTwo {
+	list-style: square inside url('images/pawprintBullet.png');
+}

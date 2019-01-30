@@ -1,0 +1,16 @@
+body {
+	background: white;
+	font-size: 100%;
+	font-family: geneva, tahoma, sans-serif;
+}
+ol {
+	background: indigo;
+}
+ol li {
+	list-style: lower-alpha;
+	background: grey;
+	
+}
+ul li {
+	list-style: square inside url('circleArrow.png');
+}

@@ -1,0 +1,20 @@
+body {
+	background: #DCDCDC;
+	font-size: 100%;
+	font-family: verdana, geneva, sans-serif;
+}
+h1 {
+	color: #8B0000;
+}
+h2 {
+	color: #483D8B;
+}
+div.img {
+	margin: 0 auto;
+	width: 900px;
+}
+div.textBox {
+	background: white;
+	padding: 20px;
+	margin: 20px;
+}

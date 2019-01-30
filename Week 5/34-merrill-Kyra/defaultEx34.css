@@ -1,0 +1,20 @@
+body {
+	font-family: geneva, tahoma, sans-serif;
+	font-size: 90%;
+	background-color: #D1C9C0;
+	margin: 0 auto;
+	width: 800px;
+}
+div {
+	background: white;
+	height: 145px;
+	margin-bottom: 20px;
+	/*overflow: auto;*/
+}
+p {
+	padding: 10px;
+	width: 50%;
+}
+.floatRight {
+	float: right;
+}

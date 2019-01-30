@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Table Demo</title>
+	<link rel="stylesheet" type="text/css" href="default27.css">
+</head>
+
+<body>
+
+<h3>Table Tags</h3>
+
+<table>
+	
+	<caption>Number&nbsp;of&nbsp;Adoptions</caption>
+	<colgroup>
+		<col />
+		<col style="background: #999;" />
+		<col class="yellow" />
+	</colgroup>
+	<thead>
+		<tr>
+			<th>Month</th>
+			<th>Dogs</th>
+			<th>Cats</th>
+		</tr>
+	</thead>	
+	<tbody>
+	<tr>
+		<td class="stub">January</td>
+		<td>33</td>
+		<td>95</td>
+	</tr>
+	<tr>	
+		<td class="stub">February</td>
+		<td>
+			<table>
+				<tr>
+					<td>PUPPIES</td>
+					<td>15</td>
+				</tr>
+				<tr>
+					<td>ADULTS</td>
+					<td>8</td>
+				</tr>
+			</table>
+		</td>
+		<td>59</td>
+	</tr>
+	<tr>
+		<td class="stub">March</td>
+		<td>
+			<ol>
+			<li>Hermit Crab</li>
+			<li>Humans</li>
+			<li>Frogs</li>
+			</ol>
+		</td>
+		<td>76</td>
+	</tr>
+	<tr>
+		<td class="stub">Total</td>
+		<td>75</td>
+		<td>230</td>
+	</tbody>
+</table>
+
+
+<h3>Table Attributes</h3>
+
+<table>
+<caption>Number of Adoptions</caption>
+
+<colgroup>
+	<col />
+	<col />
+</colgroup>
+<thead>
+	<tr>
+		<th>&nbsp;</th>
+		<th colspan="2" style="background-color #ffffff">Species</th>
+	</tr>
+	<tr>
+		<th>Month</th>
+		<th>Dogs</th>
+		<th>Cats</th>
+	</tr>	
+</thead>
+
+
+<tbody>
+	<tr>
+		<td>January</td>
+		<td>33</td>
+		<td>95</td>
+	</tr>
+
+	<tr>
+		<td>February</td>
+		<td>23</td>
+		<td>59</td>
+	</tr>
+
+	<tr>
+		<td>March</td>
+		<td>19</td>
+		<td>76</td>
+	</tr>
+</tbody>
+
+<tfoot>
+	<tr>
+		<td>Total</td>
+		<td>75</td>
+		<td>230</td>
+	</tr>
+</tfoot>
+
+</table>
+
+<h3>Table with id=special</h3>
+
+<table id="special">
+<caption>Number of Adoptions</caption>
+
+<colgroup>
+	<col />
+	<col style="background-color:#999999" />
+</colgroup>
+<thead>
+	<tr>
+		<th>&nbsp;</th>
+		<th colspan="2" style="background-color:#ffffff">Species</th>
+	</tr>
+	<tr>
+		<th>Month</th>
+		<th>Dogs</th>
+		<th>Cats</th>
+	</tr>	
+</thead>
+
+
+<tbody>
+	<tr>
+		<td>January</td>
+		<td class="center">33</td>
+		<td class="center">95</td>
+	</tr>
+
+	<tr>
+		<td>February</td>
+		<td class="center">23</td>
+		<td class="center">59</td>
+	</tr>
+
+	<tr>
+		<td>March</td>
+		<td class="center">19</td>
+		<td class="center">76</td>
+	</tr>
+</tbody>
+
+<tfoot>
+	<tr>
+		<td>Total</td>
+		<td class="center">75</td>
+		<td class="center">230</td>
+	</tr>
+</tfoot>
+
+</table>
+
+
+<h2>3 Rows and 3 Columns with a Rowspan</h2>
+<table>
+  <tr>
+    <td>100</td>
+    <td>200</td>
+    <td>300</td>
+		<td>&nbsp</td>
+		<td>&nbsp</td>
+  </tr>
+  <tr>
+    <td rowspan="5">400</td>
+    <td>500</td>
+    <td>600</td>
+		<td>&nbsp</td>
+		<td>&nbsp</td>
+  </tr>
+  <tr>
+    <td>800</td>
+    <td>900</td>
+		<td>&nbsp</td>
+		<td>&nbsp</td>
+  </tr>
+  <tr>
+    <td colspan="3">800</td>
+    <td>900</td>
+  </tr>
+  <tr>
+    <td>100</td>
+    <td>200</td>
+    <td>300</td>
+		<td>&nbsp</td>
+  </tr>
+  <tr>
+    <td>100</td>
+    <td>200</td>
+    <td>300</td>
+		<td>&nbsp</td>
+  </tr>
+</table>
+
+</body>
+
+</html>
