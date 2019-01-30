@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chestnut Ridge Conservancy</title>
+	<link rel="stylesheet" type="text/css" href="defaultchestnut.css" />
+</head>
+	
+<body>
+		<p><img src="creek.jpg" width="600" height="220" alt="A creek, says Exploring a Creek"></p>
+
+	<h1>Welcome to the Chestnut Ridge Conservancy</h1>
+		<p><a href="http://www2.erie.gov/parks/index.php?q=chestnut-ridge">Chestnut Ridge Park</a> is a national treasure in our own backyard! Located in Erie County, just south of Buffalo in Orchard Park, NY, it is one of the largest county parks in the country. Chestnut Ridge is home to a place where fond memories have been, and will be, made for five generations and counting of Western New Yorkers.</p>
+
+		<p>The <strong>Chestnut Ridge Conservancy</strong> is a <i>not-for-profit 501(c)(3)</i> organization established to work closely with the Erie County Department of Parks, Recreation and Forestry to help establish the direction for repairs and improvements in our beautiful park. Your generous contributions of time and talent make these improvements possible.</p>
+<hr />
+
+	<h2>Join Today!</h2>
+		<p>As a member, your <span title="EIN: 32-0296015">tax-deductible contribution</span> will be used to restore historic areas of the park (like the five murals inside of the casino), improve the signs inside of the park, enhance park usability, and improve access to some of the lesser-known features of Western New York's natural wonder.</p>
+		<p>If you would rather donate without becoming a member, there are donation levels to meet every budget. Please contribute now to this worthy cause. Thank you for your support. The future of the park is in your hands!</p>
+
+</body>
+</html>
